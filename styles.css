@@ -62,7 +62,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 200px;
     gap: 50px;
 }
 
@@ -176,20 +176,29 @@ body {
     }
 
     .hand-button {
-        margin-top: 450px;
+        margin-top: 250px;
         gap: 30px;
     }
 
     .hand-button img {
-        width: 200px;
+        width: 150px;
     }
 
     .hand-machine {
-        width: 900px;
+        width: 800px;
     }
 
     .hand-human {
-        width: 900px;
+        width: 800px;
+    }
+
+    .result-title {
+        font-size: 60px;
+    }
+
+    .result-button {
+        font-size: 25px;
+
     }
 
 
@@ -261,9 +270,6 @@ body {
 
     .result-title {
         font-size: 35px;
-
-
-
     }
 
     .result-buttons {
