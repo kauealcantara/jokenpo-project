@@ -111,8 +111,10 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 300px;
-    margin-bottom: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
 }
 
 .result-title {
@@ -180,7 +182,7 @@ body {
     }
 
     .hand-button {
-        margin-top: 250px;
+        
         gap: 30px;
     }
 
@@ -235,7 +237,7 @@ body {
 
     .hand-button {
         gap: 30px;
-        margin-top: 550px;
+        
     }
 
     .hand-button img {
@@ -263,14 +265,7 @@ body {
 
 
 
-    }
-
-
-    .container-result {
-        display: flex;
-        margin-top: 550px;
-
-    }
+    }   
 
     .result-title {
         font-size: 35px;
@@ -327,7 +322,7 @@ body {
 
     .hand-button {
         gap: 30px;
-        margin-top: 500px;
+       
     }
 
     .hand-button img {
@@ -362,11 +357,7 @@ body {
     }
 
 
-    .container-result {
-        display: flex;
-        margin-top: 500px;
-
-    }
+    
 
     .result-title {
         font-size: 35px;
