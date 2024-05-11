@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section class="container-score">
+
+            <div>
+                <h2 class="score-machine">0</h2>
+                <p class="score-name">Robô</p>
+            </div>
+
+            <div>
+                <h2 class="score-human">0</h2>
+                <p class="score-name">Você</p>
+            </div>
+
+        </section>
+
+        <section class="hand-button">
+            <div>
+                <img src="./assets/img/buttonRock.png" onclick="playHuman('rock')" id="rock" alt="button rock">
+            </div>
+
+            <div>
+                <img src="./assets/img/buttonPaper.png" onclick="playHuman('paper')" id="paper" alt="button paper">
+            </div>
+
+            <div>
+                <img src="./assets/img/buttonScissors.png" onclick="playHuman('scissors')" id="scissors" alt="button scissors">
+            </div>
+        </section>
+
+
+        <!-- :::::::::::::::::::::::::::-->
+
+        <section class="container-hands">
+            <div class="container-machine">
+                <img src="./assets/img/AI Arm Idle.png" class="hand-machine" alt="hand AI">
+            </div>
+
+            <div class="container-human">
+                <img src="./assets/img/Human Arm Idle.png" class="hand-human" alt="human AI">
+            </div>
+        </section>
+       
+
+        <section class="container-result">
+            <h2 class="result-title">É um empate</h2>
+            <div class="result-buttons">
+                <div>
+                    <button id="next-round-button" class="result-button" onclick="nextRound()">Próximo Round</button>
+                </div>
+                <div>
+                    <button id="restart-button" class="result-button" onclick="restartScore()">Restart</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
